@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<component name="MainScene" extends="Scene">
+
+    <children>
+
+        <Label
+            id="debugLabel"
+            text="HELLO FROM ROKU"
+            translation="[200,100]"
+            fontSize="48"
+            color="0xFFFFFFFF" />
+
+        <PosterGrid
+            id="videoGrid"
+            itemSize="[300,170]"
+            numRows="2"
+            numColumns="3"
+            translation="[100,200]"
+            focusable="true" />
+
+        <Video
+            id="videoPlayer"
+            width="1280"
+            height="720"
+            visible="false" />
+
+    </children>
+
+    <script type="text/brightscript"><![CDATA[
+
+sub init()
+    print "MainScene init OK"
+
+    m.label = m.top.findNode("debugLabel")
+    m.grid  = m.top.findNode("videoGrid")
+    m.video = m.top.findNode("videoPlayer")
+
+    m.grid.observeField("itemSelected", "onItemSelected")
+
+    content = CreateObject("roSGNode", "ContentNode")
+
+    for i = 1 to 6
+        item = CreateObject("roSGNode", "ContentNode")
+        item.title = "Item " + i.toStr()
+        item.HDPosterUrl = "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg"
+        item.SDPosterUrl = item.HDPosterUrl
+        item.url = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        content.appendChild(item)
+    end for
+
+    m.grid.content = content
+    m.grid.setFocus(true)
+end sub
+
+
+sub onItemSelected()
+    index = m.grid.itemSelected
+    item = m.grid.content.getChild(index)
+
+    m.label.text = "Playing: " + item.title
+
+    videoContent = CreateObject("roSGNode", "ContentNode")
+    videoContent.streamformat = "mp4"
+    videoContent.url = item.url
+    videoContent.title = item.title
+
+    m.video.content = videoContent
+    m.video.visible = true
+    m.video.control = "play"
+
+    m.grid.visible = false
+end sub
+
+
+function onKeyEvent(key as String, press as Boolean) as Boolean
+    if press and key = "back"
+        if m.video.visible
+            m.video.control = "stop"
+            m.video.visible = false
+            m.grid.visible = true
+            m.grid.setFocus(true)
+            return true
+        end if
+    end if
+    return false
+end function
+
+]]></script>
+
+</component>
+
+
+

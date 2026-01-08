@@ -1,0 +1,20 @@
+{
+  "videos": [
+    {
+      "title": "Big Buck Bunny",
+      "description": "A short animated film by the Blender Institute featuring a giant rabbit and forest animals.",
+      "HDPosterUrl": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
+      "SDPosterUrl": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "title": "Elephant Dream",
+      "description": "The first open movie from the Blender Institute, exploring a surreal mechanical world.",
+      "HDPosterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Elephants_Dream_s1_proog.jpg/640px-Elephants_Dream_s1_proog.jpg",
+      "SDPosterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Elephants_Dream_s1_proog.jpg/640px-Elephants_Dream_s1_proog.jpg",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    }
+  ]
+}
+
+

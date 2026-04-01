@@ -1,20 +1,40 @@
 {
-  "videos": [
+  "rows": [
     {
-      "title": "Big Buck Bunny",
-      "description": "A short animated film by the Blender Institute featuring a giant rabbit and forest animals.",
-      "HDPosterUrl": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
-      "SDPosterUrl": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-    },
-    {
-      "title": "Elephant Dream",
-      "description": "The first open movie from the Blender Institute, exploring a surreal mechanical world.",
-      "HDPosterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Elephants_Dream_s1_proog.jpg/640px-Elephants_Dream_s1_proog.jpg",
-      "SDPosterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Elephants_Dream_s1_proog.jpg/640px-Elephants_Dream_s1_proog.jpg",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      "title": "Featured",
+      "items": [
+        {
+          "title": "Making the Mogul",
+          "description": "A series where entrepreneurs compete in high-energy business and branding challenges designed to test creativity, leadership, and hustle.",
+          "shortDescriptionLine1": "Streaming on Juno | Reality | New Episodes",
+          "hdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+          "sdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+          "hdBackgroundImageUrl": "https://via.placeholder.com/1280x720.png?text=Juno",
+          "contentId": "making-the-mogul-show",
+          "episodes": [
+            {
+              "title": "Pilot",
+              "description": "Meet the top 20 contestants.",
+              "shortDescriptionLine1": "Season 1 | Juno",
+              "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/mtm_casting2_v1_1080p.mp4",
+              "streamFormat": "mp4",
+              "hdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+              "sdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+              "contentId": "making-the-mogul-s1epilo"
+            },
+            {
+              "title": "Ep1 - Market Research",
+              "description": "Competition heats up as contestants face off for the first challenge.",
+              "shortDescriptionLine1": "Season 1 | Juno",
+              "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/MTM+Episode+1+Movavi.mp4",
+              "streamFormat": "mp4",
+              "hdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+              "sdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+              "contentId": "making-the-mogul-ep1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
-
-

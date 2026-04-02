@@ -5,8 +5,8 @@
       "items": [
         {
           "title": "Making the Mogul",
-          "description": "A series where entrepreneurs compete in high-energy business and branding challenges designed to test creativity, leadership, and hustle.",
-          "shortDescriptionLine1": "Streaming on Juno | Reality | New Episodes",
+          "description": "Entrepreneurs compete in high-energy business and branding challenges.",
+          "shortDescriptionLine1": "Juno Original | Reality",
           "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "hdBackgroundImageUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-hero-banner.jpg",
@@ -20,21 +20,11 @@
               "streamFormat": "mp4",
               "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
               "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
-              "contentId": "making-the-mogul-s1epilo"
-            },
-            {
-              "title": "Pilot Bloopers",
-              "description": "Behind the scenes bloopers from the pilot episode.",
-              "shortDescriptionLine1": "Bonus Content | Juno",
-              "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/Pilot+bloopers.mp4",
-              "streamFormat": "mp4",
-              "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
-              "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
-              "contentId": "making-the-mogul-s1pilotBloopers"
+              "contentId": "making-the-mogul-s1ep1"
             },
             {
               "title": "Ep1 - Market Research",
-              "description": "Competition heats up as contestants face off for the first challenge.",
+              "description": "Contestants face their first major challenge.",
               "shortDescriptionLine1": "Season 1 | Juno",
               "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/MTM+Episode+1+Movavi.mp4",
               "streamFormat": "mp4",
@@ -43,6 +33,38 @@
               "contentId": "making-the-mogul-ep1"
             }
           ]
+        }
+      ]
+    },
+
+    {
+      "title": "Juno Originals",
+      "items": [
+        {
+          "title": "Making the Mogul",
+          "description": "A flagship Juno Original series.",
+          "shortDescriptionLine1": "Exclusive Series",
+          "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+          "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+          "hdBackgroundImageUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-hero-banner.jpg",
+          "contentId": "making-the-mogul-original",
+          "episodes": []
+        }
+      ]
+    },
+
+    {
+      "title": "Behind the Scenes",
+      "items": [
+        {
+          "title": "Pilot Bloopers",
+          "description": "Behind the scenes moments from the pilot.",
+          "shortDescriptionLine1": "Bonus Content",
+          "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+          "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+          "contentId": "making-the-mogul-bloopers",
+          "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/Pilot+bloopers.mp4",
+          "streamFormat": "mp4"
         }
       ]
     }

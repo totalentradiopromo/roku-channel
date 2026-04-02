@@ -23,6 +23,16 @@
               "contentId": "making-the-mogul-s1epilo"
             },
             {
+              "title": "Pilot Bloopers",
+              "description": "Behind the scenes bloopers from the pilot episode.",
+              "shortDescriptionLine1": "Bonus Content | Juno",
+              "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/Pilot+bloopers.mp4",
+              "streamFormat": "mp4",
+              "hdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+              "sdPosterUrl": "https://via.placeholder.com/300x170.png?text=Juno",
+              "contentId": "making-the-mogul-s1pilotBloopers"
+            },
+            {
               "title": "Ep1 - Market Research",
               "description": "Competition heats up as contestants face off for the first challenge.",
               "shortDescriptionLine1": "Season 1 | Juno",

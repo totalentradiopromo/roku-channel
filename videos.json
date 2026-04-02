@@ -40,25 +40,26 @@
       "title": "Juno Originals",
       "items": [
         {
-          "title": "Making the Mogul",
-          "description": "A flagship Juno Original series.",
-          "shortDescriptionLine1": "Exclusive Series",
+          "title": "Pilot",
+          "description": "Meet the top 20 contestants.",
+          "shortDescriptionLine1": "Juno Original Episode",
           "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "hdBackgroundImageUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-hero-banner.jpg",
-          "contentId": "mogul-original",
-          "episodes": [
-            {
-              "title": "Pilot",
-              "description": "Meet the top 20 contestants.",
-              "shortDescriptionLine1": "Season 1 | Juno",
-              "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/mtm_casting2_v1_1080p.mp4",
-              "streamFormat": "mp4",
-              "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
-              "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
-              "contentId": "making-the-mogul-s1ep1-originals"
-            }
-          ]
+          "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/mtm_casting2_v1_1080p.mp4",
+          "streamFormat": "mp4",
+          "contentId": "making-the-mogul-pilot-standalone"
+        },
+        {
+          "title": "Ep1 - Market Research",
+          "description": "Contestants face their first major challenge.",
+          "shortDescriptionLine1": "Juno Original Episode",
+          "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+          "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+          "hdBackgroundImageUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-hero-banner.jpg",
+          "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/MTM+Episode+1+Movavi.mp4",
+          "streamFormat": "mp4",
+          "contentId": "making-the-mogul-ep1-standalone"
         }
       ]
     },

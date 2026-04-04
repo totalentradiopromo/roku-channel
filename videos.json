@@ -5,13 +5,13 @@
       "items": [
         {
           "title": "Making the Mogul",
-          "description": "The featured spotlight series on Juno.",
-          "shortDescriptionLine1": "Making the Mogul",
+          "description": "Entrepreneurs compete in high-energy business and branding challenges designed to test creativity, leadership, and hustle.",
+          "shortDescriptionLine1": "2026 | Reality | New Episodes",
           "shortDescriptionLine2": "Featured",
           "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "hdBackgroundImageUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-hero-banner.jpg",
-          "contentId": "making-the-mogul",
+          "contentId": "making-the-mogul-show",
           "mediaType": "series",
           "episodes": [
             {

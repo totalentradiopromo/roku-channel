@@ -58,7 +58,7 @@
       "title": "Behind the Scenes",
       "items": [
         {
-          "title": "Pilot Bloopers",
+          "title": "Bloopers",
           "description": "Behind the scenes bloopers from the pilot episode.",
           "shortDescriptionLine1": "Bonus Content",
           "shortDescriptionLine2": "Behind the Scenes",
@@ -66,8 +66,18 @@
           "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "hdBackgroundImageUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/juno-splash-hd.png",
           "contentId": "making-the-mogul-bloopers",
-          "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/Pilot+bloopers.mp4",
-          "streamFormat": "mp4"
+          "episodes": [
+            {
+              "title": "Pilot Bloopers",
+              "description": "Behind the scenes bloopers from the pilot episode.",
+              "shortDescriptionLine1": "Bonus Content",
+              "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+              "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
+              "contentId": "making-the-mogul-s1pilotBloopers",
+              "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/Pilot+bloopers.mp4",
+              "streamFormat": "mp4"
+            }
+          ]
         }
       ]
     }

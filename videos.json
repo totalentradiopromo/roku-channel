@@ -10,20 +10,21 @@
           "hdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "sdPosterUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-poster.png",
           "hdBackgroundImageUrl": "https://raw.githubusercontent.com/totalentradiopromo/roku-channel/main/images/making-the-mogul-hero-banner.jpg",
-          "deepLinkId": "making-the-mogul-show",
+          "contentId": "making-the-mogul-show",
           "episodes": [
             {
-             "description": "Meet the top 20 contestants.",
+              "title": "Pilot",
+              "description": "Meet the top 20 contestants.",
               "shortDescriptionLine1": "Season 1",
-              "deepLinkId": "making-the-mogul-pilot",
+              "contentId": "making-the-mogul-pilot",
               "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/mtm_casting2_v1_1080p.mp4",
               "streamFormat": "mp4"
             },
             {
               "title": "Episode 1",
-              "description": "The competition heats up as the contestants compete in their first challenge.",
+              "description": "Competition heats up as the contestants get into their very first challenge.",
               "shortDescriptionLine1": "Season 1",
-              "deepLinkId": "making-the-mogul-ep1",
+              "contentId": "making-the-mogul-ep1",
               "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/MTM+Episode+1+Movavi.mp4",
               "streamFormat": "mp4"
             }
@@ -38,7 +39,7 @@
           "title": "Juno Originals",
           "description": "Original programming",
           "shortDescriptionLine1": "Juno",
-          "deepLinkId": "juno-originals",
+          "contentId": "juno-originals",
           "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/MTM+Episode+1+Movavi.mp4",
           "streamFormat": "mp4"
         }
@@ -49,9 +50,9 @@
       "items": [
         {
           "title": "Pilot Bloopers",
-          "description": "Behind the scenes moments from the pilot episode.",
+          "description": "Behind the scenes moments from pilot episode.",
           "shortDescriptionLine1": "Bonus",
-          "deepLinkId": "making-the-mogul-bloopers",
+          "contentId": "making-the-mogul-bloopers",
           "url": "https://mustard-seed-productions-video.s3.us-east-2.amazonaws.com/Pilot+bloopers.mp4",
           "streamFormat": "mp4"
         }
